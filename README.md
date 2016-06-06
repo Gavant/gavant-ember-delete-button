@@ -1,6 +1,6 @@
 # Delete-button
 
-This README outlines the details of collaborating on this Ember addon.
+This is a component that shows a bootstrap popover to confirm the deletion of an item.
 
 ## Installation
 
