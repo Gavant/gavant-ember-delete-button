@@ -47,5 +47,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory.gavant.com/artifactory/api/npm/npm-local"
   }
 }
