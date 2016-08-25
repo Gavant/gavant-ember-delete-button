@@ -1,6 +1,6 @@
 {
   "name": "gavant-delete-button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This button handles confirming deletion of an object. It sends out a remove action if confirmed",
   "directories": {
     "doc": "doc",
