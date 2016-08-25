@@ -6,8 +6,9 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-    app.import(app.bowerDirectory + '/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js');
-    app.import(app.bowerDirectory + '/bootstrap-sass/assets/javascripts/bootstrap/popover.js');
-    
+    if (!process.env.EMBER_CLI_FASTBOOT) {
+        app.import(app.bowerDirectory + '/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js');
+        app.import(app.bowerDirectory + '/bootstrap-sass/assets/javascripts/bootstrap/popover.js');
+    }
   }
 };
