@@ -5,7 +5,8 @@ const {
     Component,
     get,
     set,
-    computed
+    computed,
+    tryInvoke
 } = Ember;
 
 export default Component.extend({
@@ -96,10 +97,15 @@ export default Component.extend({
             }
         },
 
-        delete: function() {
+        async delete: function() {
             this.toggleProperty('removing');
             this.destroyPopover();
-            this.sendAction('remove', get(this, 'model'));
+            try {
+                await tryInvoke(this.attrs, 'remove', [get(this, 'model')]);
+            }
+            catch (error) {
+              this.toggleProperty('removing');
+            }
         },
 
         cancel: function() {
