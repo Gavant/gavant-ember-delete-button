@@ -1,7 +1,7 @@
 {
-  "name": "gavant-delete-button",
+  "name": "gavant-ember-delete-button",
   "version": "0.0.4",
-  "description": "This button handles confirming deletion of an object. It sends out a remove action if confirmed",
+  "description": "A simple delete confirmation button component",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gavant/gavant-ember-delete-button.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "Adam Baker",
+  "author": "Gavant Software, Inc.",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -39,7 +42,11 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "delete",
+    "confirm",
+    "button"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6",
