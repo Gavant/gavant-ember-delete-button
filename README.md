@@ -2,7 +2,7 @@
 
 This is a component that shows a bootstrap popover to confirm the deletion of an item.
 
-**DISCLAIMER: This addon is not actively maintained for public use. Pull requests are welcome, but we do not guarantee timely responses to bug submissions or feature requests, so use at your own risk.**
+**DISCLAIMER: This addon is not actively maintained for public use. Pull requests are welcome, but we do not guarantee  responses to bug submissions or feature requests, so use at your own risk.**
 
 ## Installation
 
