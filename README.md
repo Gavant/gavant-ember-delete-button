@@ -1,4 +1,6 @@
-# gavant-ember-delete-button
+# DEPRECATED: gavant-ember-delete-button
+
+**This project has been deprecated. A future addon, gavant-ember-button-confirm, will replace it.**
 
 This is a component that shows a bootstrap popover to confirm the deletion of an item.
 
